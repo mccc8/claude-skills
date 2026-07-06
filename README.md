@@ -4,6 +4,8 @@
 
 📄 [技能展示页](https://mccc8.github.io/claude-skills/) · 🗺 [数据分析 Skill 路线图](ROADMAP.md) · 📖 [Skill 写作方法论](docs/skill写作方法论.md)
 
+> 背景上下文：[仓库起源与定位](docs/context/01-仓库起源与定位.md)（Registry → Hub → Pack Manager）· [数据分析思考来源](docs/context/02-数据分析思考来源.md)（None-One-Many / default action）· [双向同步机制](docs/同步机制.md)（GitHub 为准）
+
 ## 安装
 
 使用 [skills CLI](https://github.com/vercel-labs/skills)（基于 `npx`）一行安装：

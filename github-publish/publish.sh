@@ -32,6 +32,11 @@ fi
 
 cd "$FOLDER"
 
+# 2.5 有展示页生成器就先重建（技能仓库：发布前自动刷新 docs/index.html）
+if [ -f scripts/build_page.py ]; then
+  python3 scripts/build_page.py >/dev/null 2>&1 && echo "✅ 展示页已重建" || echo "⚠️ 展示页重建失败（不阻塞发布）"
+fi
+
 # 3. 没有 git 仓库就新建
 if [ ! -d .git ]; then
   git init -b main >/dev/null

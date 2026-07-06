@@ -37,7 +37,7 @@
 **验收**：展示页可访问，README 含 8 个既有 skill。
 
 ### M1 · 描述型 I：先让数据开口
-写 `da-dataset-intake`（数据集体检：行列/类型/缺失/时间跨度/一句话画像）+ `da-dictionary-builder`（字段字典草案生成）。
+写 `da-dataset-intake`（数据集体检：行列/类型/缺失/时间跨度/一句话画像）+ `da-dictionary-builder`（字段字典草案生成，**每个字段解释必须标注"确定 / 推测 / 不知道"——不许把猜测写成真理**）。
 **第一刀**：对自己的 flomo 导出跑一次，产出 `data_profile.md` + 字典草案。
 **验收**：两个 skill 各过 3 eval；脱敏样例上展示页。
 
@@ -58,7 +58,8 @@
 **验收**：预测输出必带区间和"何时不该信"；对比 naive baseline 有提升才算过。
 
 ### M6 · 决策与评估：闭环
-写 `da-decision-brief`（分析→行动简报：可选动作/成本/风险）+ `da-skill-eval`（skill 评测器：裸 prompt vs skill vs skill+loop 对比时间/返工/结构命中）。
+写 `da-decision-brief`（分析→行动简报：可选动作/成本/风险；**强制 default action 前置——看数据之前先写默认动作和"什么证据会让我改变主意"**）+ `da-skill-eval`（skill 评测器：裸 prompt vs skill vs skill+loop 对比时间/返工/结构命中）。
+决策过程按 decision scribe 方式留档（当时可得数据/假设/推理），归档进 WorkDeck 产物区，防结果偏差。
 **验收**：用 da-skill-eval 回评 M1-M5 全部 skill，出总榜；不合格的回炉。
 
 ## 迭代与应用机制（写完不是结束）
@@ -71,6 +72,12 @@
 ## 先不碰（明确负清单）
 
 MLOps · 深度学习 · R 语言选型 · 大规模 Skill Hub · 商业化 · 复杂 KPI。工具默认 Python + pandas + 本地文件 + Git。
+**在制上限**：同时维护的未完成 skill ≤ 3 个——先别做平台，先让三个 skill 活下来。
 
----
-*理论锚点：Cassie Kozyrkov 的 decision intelligence（数据科学 = 让数据有用的学科；analytics 不是讲故事）；Conway 三环图当能力缺口自检表：hacking / statistics / domain。*
+## 理论锚点（详见 [数据分析思考来源](docs/context/02-数据分析思考来源.md)）
+
+- **None-One-Many**（按决策数量分类）：None 找灵感 → M1-M3；One 高风险推断 → M4/M6；Many 自动化 → M3/M5。
+- **分析金律**：只对看到的数据下结论——坏数据 eval 的理论依据。
+- **Default action**：看数据前先承诺默认动作与"改变主意的证据"——M6 强制项。
+- **Danger Zone 自检**（Conway）：hacking+domain−statistics = 把巧合当因果；进 M4 之前必须补统计推断。
+- 仓库定位与演进（Registry → Hub → Pack Manager）见 [仓库起源与定位](docs/context/01-仓库起源与定位.md)；同步规则见 [双向同步机制](docs/同步机制.md)。
