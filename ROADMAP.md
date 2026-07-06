@@ -32,9 +32,9 @@
 
 ## 里程碑（按决策类型递进）
 
-### M0 · 开张（当天完成）
-仓库公开、README 技能表、Pages 展示页、bio、本路线图上线。
-**验收**：展示页可访问，README 含 8 个既有 skill。
+### M0 · 开张 ✅（2026-07-07 完成）
+仓库公开、README 技能表、Pages 展示页、本路线图上线。
+**验收**：展示页可访问（https://mccc8.github.io/claude-skills/ ✓），README 含 8 个既有 skill ✓。
 
 ### M1 · 描述型 I：先让数据开口
 写 `da-dataset-intake`（数据集体检：行列/类型/缺失/时间跨度/一句话画像）+ `da-dictionary-builder`（字段字典草案生成，**每个字段解释必须标注"确定 / 推测 / 不知道"——不许把猜测写成真理**）。
