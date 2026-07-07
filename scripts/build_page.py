@@ -14,6 +14,7 @@ BADGES = {
     "trigger-audit": ("触发审计", "🔍"), "github-publish": ("一键发布", "🚀"),
     "github-sync": ("下行同步", "⬇️"), "agents-workspace-audit": ("工作区审计", "🗂"),
     "analysis-thinking": ("分析分诊", "🧠"),
+    "smart-asking": ("求助分诊", "🙋"),
 }
 
 skills = []
