@@ -16,6 +16,7 @@ BADGES = {
     "analysis-thinking": ("分析分诊", "🧠"),
     "smart-asking": ("求助分诊", "🙋"),
     "thinking-router": ("思维路由", "🧭"),
+    "incentive-design": ("激励设计", "🎰"),
 }
 
 skills = []

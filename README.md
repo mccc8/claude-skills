@@ -41,7 +41,8 @@ git clone https://github.com/mccc8/claude-skills.git ~/.claude/skills
 | **agents-workspace-audit** | 工作区审计 — 对 AGENTS.md / CLAUDE.md 治理的 agent 工作区做证据化审计与评分 |
 | **analysis-thinking** | 分析分诊 — 对象八型分型后按需加载简版/标准版/系统版分析指令，渐进式披露的 skill pack 范例 |
 | **smart-asking** | 求助分诊 — 三轴判定该问AI/问人/发公开（可验证性×上下文归属×代价结构），生成对应提问稿，解决后强制沉淀。源自 ESR《提问的智慧》 |
-| **thinking-router** | 思维路由 — untools.co 思维工具选择器：状态×缩放双诊断，苏格拉底式一次一问，含四个 GitHub 稀缺基石（抽象阶梯/推理阶梯/二阶思考/影响-代价矩阵） |
+| **thinking-router** | 思维路由 — untools.co 全量 25 工具选择器：物理预检→状态×缩放矩阵→深度闸门（deep-root 双轴诊断），苏格拉底式一次一问 |
+| **incentive-design** | 激励设计 — 先审计"环境在奖励什么"，按病症分诊塑造/嫁接/消退三径，配反馈调度、惩罚三问与伦理红线，出激励处方卡。源自芒格×斯金纳 |
 
 ## Prompt Packs
 
