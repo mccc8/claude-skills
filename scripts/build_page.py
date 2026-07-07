@@ -13,6 +13,7 @@ BADGES = {
     "c4-diagram": ("架构制图", "🏗"), "whiteboard-explain": ("白板讲解", "🖊"),
     "trigger-audit": ("触发审计", "🔍"), "github-publish": ("一键发布", "🚀"),
     "github-sync": ("下行同步", "⬇️"), "agents-workspace-audit": ("工作区审计", "🗂"),
+    "analysis-thinking": ("分析分诊", "🧠"),
 }
 
 skills = []

@@ -2,6 +2,8 @@
 
 本包整理本轮对话中形成的提示词资产，包含：
 
+> **⬆ 本包已升级为可触发的 skill：[analysis-thinking](../../../analysis-thinking/SKILL.md)**——主 SKILL.md 做分诊路由（轻量索引），四份 prompt 成为按需加载的子指令，每次只加载一份。本目录保留原始 prompt 版，供不支持 skill 的普通 AI 工具复制使用。
+
 1. `00_original_mckinsey_style_prompt.md`
    - 原始麦肯锡式分析 prompt 的重构版
    - 用于对比，不作为最终推荐主线

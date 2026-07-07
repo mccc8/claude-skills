@@ -39,6 +39,7 @@ git clone https://github.com/mccc8/claude-skills.git ~/.claude/skills
 | **github-publish** | 一键发布 — 本地文件夹 → GitHub 仓库全自动（init/commit/建仓/push），零 git 经验可用 |
 | **github-sync** | 下行同步 — 云端仓库全量拉回本地 + 生成可双击的索引页，绝不覆盖本地改动 |
 | **agents-workspace-audit** | 工作区审计 — 对 AGENTS.md / CLAUDE.md 治理的 agent 工作区做证据化审计与评分 |
+| **analysis-thinking** | 分析分诊 — 对象八型分型后按需加载简版/标准版/系统版分析指令，渐进式披露的 skill pack 范例 |
 
 ## Prompt Packs
 
