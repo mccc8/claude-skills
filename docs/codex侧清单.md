@@ -1,0 +1,96 @@
+# Codex 侧技能清单（第三方安装态）
+
+> 本机 `~/.codex/skills` 的安装快照（2026-07-07，共 87 个 + 系统 5 个）。
+> 这些**不是本仓库的方法资产**——全部来自第三方（OpenAI 官方策展 38 / superpowers 社区包 15 / Anthropic 示例 5 / 社区 29），内容不在此重新分发，只留清单供恢复与查阅。
+> 自写的 8 个技能通过符号链接双挂载进 Codex（见 [同步机制](同步机制.md)），不在下表。
+
+
+| skill | 来源 |
+|---|---|
+| academic-research | 社区/待确认 |
+| agent-deep-links | 社区/待确认 |
+| anysearch | 社区/待确认 |
+| aspnet-core | OpenAI官方策展 |
+| brainstorming | superpowers社区包 |
+| brand-guidelines | Anthropic示例包 |
+| canvas-design | Anthropic示例包 |
+| changelog-generator | 社区/待确认 |
+| chatgpt-apps | OpenAI官方策展 |
+| cli-creator | OpenAI官方策展 |
+| cloudflare-deploy | OpenAI官方策展 |
+| competitive-ads-extractor | 社区/待确认 |
+| content-research-writer | 社区/待确认 |
+| create-plan | superpowers社区包 |
+| define-goal | OpenAI官方策展 |
+| developer-growth-analysis | 社区/待确认 |
+| dispatching-parallel-agents | superpowers社区包 |
+| domain-name-brainstormer | 社区/待确认 |
+| email-draft-polish | 社区/待确认 |
+| executing-plans | superpowers社区包 |
+| figma | OpenAI官方策展 |
+| figma-code-connect-components | OpenAI官方策展 |
+| figma-create-design-system-rules | OpenAI官方策展 |
+| figma-create-new-file | OpenAI官方策展 |
+| figma-generate-design | OpenAI官方策展 |
+| figma-generate-library | OpenAI官方策展 |
+| figma-implement-design | OpenAI官方策展 |
+| figma-use | OpenAI官方策展 |
+| file-organizer | 社区/待确认 |
+| finishing-a-development-branch | superpowers社区包 |
+| gh-address-comments | OpenAI官方策展 |
+| gh-fix-ci | OpenAI官方策展 |
+| hatch-pet | OpenAI官方策展 |
+| helium-mcp | 社区/待确认 |
+| ian-xiaohei-illustrations | 社区/待确认 |
+| image-enhancer | 社区/待确认 |
+| internal-comms | Anthropic示例包 |
+| invoice-organizer | 社区/待确认 |
+| jupyter-notebook | OpenAI官方策展 |
+| lead-research-assistant | 社区/待确认 |
+| linear | OpenAI官方策展 |
+| mcp-builder | 社区/待确认 |
+| meeting-insights-analyzer | 社区/待确认 |
+| meeting-notes-and-actions | 社区/待确认 |
+| migrate-to-codex | OpenAI官方策展 |
+| netlify-deploy | OpenAI官方策展 |
+| notion-knowledge-capture | OpenAI官方策展 |
+| notion-meeting-intelligence | OpenAI官方策展 |
+| notion-research-documentation | OpenAI官方策展 |
+| notion-spec-to-implementation | OpenAI官方策展 |
+| paperjsx | 社区/待确认 |
+| pdf | OpenAI官方策展 |
+| playwright | OpenAI官方策展 |
+| playwright-interactive | OpenAI官方策展 |
+| raffle-winner-picker | 社区/待确认 |
+| receiving-code-review | superpowers社区包 |
+| render-deploy | OpenAI官方策展 |
+| requesting-code-review | superpowers社区包 |
+| screenshot | OpenAI官方策展 |
+| security-best-practices | OpenAI官方策展 |
+| security-ownership-map | OpenAI官方策展 |
+| security-threat-model | OpenAI官方策展 |
+| sentry | OpenAI官方策展 |
+| skill-share | 社区/待确认 |
+| slack-gif-creator | Anthropic示例包 |
+| social-content-analysis | 社区/待确认 |
+| speech | OpenAI官方策展 |
+| spreadsheet-formula-helper | 社区/待确认 |
+| subagent-driven-development | superpowers社区包 |
+| support-ticket-triage | 社区/待确认 |
+| systematic-debugging | superpowers社区包 |
+| tailored-resume-generator | 社区/待确认 |
+| template-skill | 社区/待确认 |
+| test-driven-development | superpowers社区包 |
+| theme-factory | Anthropic示例包 |
+| transcribe | OpenAI官方策展 |
+| using-git-worktrees | superpowers社区包 |
+| using-superpowers | superpowers社区包 |
+| vercel-deploy | OpenAI官方策展 |
+| verification-before-completion | superpowers社区包 |
+| video-downloader | 社区/待确认 |
+| webapp-testing | 社区/待确认 |
+| welfare-choice-architecture-auditor | 社区/待确认 |
+| winui-app | OpenAI官方策展 |
+| writing-plans | superpowers社区包 |
+| writing-skills | superpowers社区包 |
+| yeet | OpenAI官方策展 |
