@@ -15,6 +15,7 @@ BADGES = {
     "github-sync": ("下行同步", "⬇️"), "agents-workspace-audit": ("工作区审计", "🗂"),
     "analysis-thinking": ("分析分诊", "🧠"),
     "smart-asking": ("求助分诊", "🙋"),
+    "thinking-router": ("思维路由", "🧭"),
 }
 
 skills = []
