@@ -1,10 +1,10 @@
 ---
 name: thinking-router
 description: 思维工具路由器（How to think better）——先物理预检排除资源问题，再按状态×缩放命中轻工具，顽固问题过深度闸门进深根诊断，苏格拉底式一次一问。当用户说"我卡住了""一团乱不知道从哪开始""帮我想想这事""我该用什么框架想这个问题""这毛病老是反复"，或描述一个还没成形的困境时触发。已成形对象要完整分析→analysis-thinking；求助该问谁→smart-asking；目标落卡→goal-builder。
-version: 0.2.0
-status: 实验
+version: 0.3.0
+status: 稳定
 since: 2026-07-08
-source: untools.co + 两轮会话思辨（v0.2 增：物理预检/深度闸门/deep-root 双轴诊断）
+source: untools.co + 两轮会话思辨（v0.3：25/25 全量工具卡，† 占位机制退役）
 ---
 
 # Thinking Router — 思维工具路由器
@@ -42,4 +42,4 @@ source: untools.co + 两轮会话思辨（v0.2 增：物理预检/深度闸门/d
 ## 边界
 
 - 苏格拉底引导服务"想清楚"，不服务"写出来"——产出文档找对应产出型 skill。
-- 原始四分类目录及 † 未建工具（First Principles/5 Whys 单用/Iceberg 单用/Minto 等）：命中时两行极简引导 + untools.co 链接；† 被真实命中 3 次即升级为子件。
+- **全量目录**：untools 25 个工具已全部建卡（何时用/步骤/强制输出物/接力）。矩阵没命中或用户想浏览/点名某工具 → 加载 [tools/INDEX.md](tools/INDEX.md) 按四分类选卡，仍然一次只进一个工具。
