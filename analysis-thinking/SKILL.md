@@ -1,6 +1,11 @@
 ---
 name: analysis-thinking
 description: 通用分析思维分诊器——先对象分型（概念/文本/决策/系统/关系/演化/价值/执行八型），再按需加载对应深度的分析指令，渐进式披露不全量加载。当用户说"帮我分析一下""这个问题怎么拆""从哪儿入手""理不清头绪""帮我把这个局看明白""给个分析框架"，或扔来一段材料/一个决策/一个系统问题要深度分析时触发。数据集/表格分析→da-*系列（规划中）；软件架构图→c4-diagram；单个概念深挖→ljg-learn。
+version: 0.1.1
+status: 稳定
+since: 2026-07-07
+source: docs/prompt-packs/analysis（prompt pack 升级而来）
+eval: 结构断言7/7 · 功能断言5/5 · 实战3轮10话题（simple×2 standard×5 system×3 polish×0）
 ---
 
 # Analysis Thinking — 分析分诊器
