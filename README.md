@@ -40,6 +40,12 @@ git clone https://github.com/mccc8/claude-skills.git ~/.claude/skills
 | **github-sync** | 下行同步 — 云端仓库全量拉回本地 + 生成可双击的索引页，绝不覆盖本地改动 |
 | **agents-workspace-audit** | 工作区审计 — 对 AGENTS.md / CLAUDE.md 治理的 agent 工作区做证据化审计与评分 |
 
+## Prompt Packs
+
+| 包 | 内容 |
+|---|---|
+| [分析思维](docs/prompt-packs/analysis/README.md) | 分析提示词母句 + 简版/标准版/系统版通用分析 prompt + 麦肯锡式对照。核心：对象分型 → 切入点 → 关键断点 → 依赖耦合 → 解耦重组 → 行动承接 |
+
 ## 方法论（这些 skill 是怎么写出来的）
 
 四条硬规则，全文见 [skill 写作方法论](docs/skill写作方法论.md)：
