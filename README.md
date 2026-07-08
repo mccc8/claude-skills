@@ -2,7 +2,7 @@
 
 我的 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 自定义技能集：**看一个，写一个，用一个。**
 
-📄 [技能展示页](https://mccc8.github.io/claude-skills/) · 🗺 [数据分析 Skill 路线图](ROADMAP.md) · 📖 [Skill 写作方法论](docs/skill写作方法论.md)
+📜 [PRINCIPLES 技能库宪法](PRINCIPLES.md) · 📄 [技能展示页](https://mccc8.github.io/claude-skills/) · 🗺 [数据分析路线图](ROADMAP.md) · 📖 [写作方法论](docs/skill写作方法论.md)
 
 > 背景上下文：[仓库起源与定位](docs/context/01-仓库起源与定位.md)（Registry → Hub → Pack Manager）· [数据分析思考来源](docs/context/02-数据分析思考来源.md)（None-One-Many / default action）· [双向同步机制](docs/同步机制.md)（GitHub 为准）
 
