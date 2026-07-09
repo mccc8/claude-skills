@@ -1,40 +1,52 @@
-# Untools 工具索引（可路由二级索引 · 全量 26）
+# 思维工具索引（按你的路由偏好：缩放 A + 状态 B 为主，四分类为辅）
 
-> **路由器读法**：SKILL.md 状态诊断粗筛到某一类后，加载本文件，在该类内按「何时用」线索细筛，命中一张即加载对应卡。用户浏览同样按此表。★=精写版（在上级目录，更深）。
+> **路由器读法**：Level 1 未命中 → 先问【缩放 A】或【状态 B】任一维度粗筛 → 本表按该维度取候选 → 命中一张加载卡。四分类仅供浏览/严谨性，不作路由主维度（用户明确偏好：A、B 强，分类弱）。★=精写版（上级目录，更深）。
 
-## 系统思考 Systems Thinking
-- **[iceberg-model](./iceberg-model.md)** — 何时用：单个事件想快速看深一眼
-- **[balancing-feedback-loop](./balancing-feedback-loop.md)** — 何时用：系统总是"回到老样子"、努力被抵消
-- **[reinforcing-feedback-loop](./reinforcing-feedback-loop.md)** — 何时用：越来越好/越来越糟的滚雪球，想找到雪球轴心
-- **[connection-circles](./connection-circles.md)** — 何时用：一团乱的故事/局面，怀疑里面有循环在作怪
-- **[concept-map](./concept-map.md)** — 何时用：进入新领域/新系统，概念一堆但关系混沌
-- **[second-order-thinking](../second-order-thinking.md)** ★ — 何时用：纠结于选择、或行动前评估连锁后果
+## 维度 A · 缩放级别（你在看什么）
 
-## 决策 Decision Making
-- **[cynefin-framework](./cynefin-framework.md)** — 何时用：不知道这问题"属于哪种性质"，怕用错打法
-- **[decision-matrix](./decision-matrix.md)** — 何时用：多个选项 × 多个在乎的标准，脑内乘不过来
-- **[eisenhower-matrix](./eisenhower-matrix.md)** — 何时用：被"紧急的事"追着跑，重要的事永远排不上
-- **[hard-choice-model](./hard-choice-model.md)** — 何时用：两个选项反复横跳，越比越难受
-- **[confidence-determines-speed-vs-quality](./confidence-determines-speed-vs-quality.md)** — 何时用：纠结"快点出手还是打磨到位"
-- **[inversion](./inversion.md)** — 何时用：目标顺着想没抓手，或方案一片乐观令人不安
-- **[pre-mortem](./pre-mortem.md)** — 何时用：方案将行未行、气氛一片乐观、或疑似"假共识"
-- **[impact-effort-matrix](../impact-effort-matrix.md)** ★ — 何时用：过载状态——事情太多，精疲力竭
-- **[ladder-of-inference](../ladder-of-inference.md)** ★ — 何时用：用户已带着笃定结论/准备冲动行动
+**微距 Zoom In — 往深里挖根因/细节**
+- [ladder-of-inference](../ladder-of-inference.md) ★ ｜状态:冲动｜类:决策 — 带着笃定结论/准备冲动行动
+- [ishikawa-diagram](./ishikawa-diagram.md) ｜状态:顽固｜类:问题 — 明确坏结果，原因候选一大把
+- [issue-trees](./issue-trees.md) ｜状态:迷茫｜类:问题 — 大问题无从下手，要 MECE 拆
+- [connection-circles](./connection-circles.md) ｜状态:顽固｜类:系统 — 一团乱，怀疑有循环在作怪
+- [first-principles](./first-principles.md) ｜状态:迷茫｜类:问题 — 惯例不可挑战/方案全是类比（兼变焦）
 
-## 问题解决 Problem Solving
-- **[first-principles](./first-principles.md)** — 何时用：领域惯例看起来不可挑战，或方案全是类比
-- **[issue-trees](./issue-trees.md)** — 何时用：大问题无从下手，需要 MECE 地拆成可分工的小块
-- **[ishikawa-diagram](./ishikawa-diagram.md)** — 何时用：一个明确的坏结果，原因候选一大把，怕漏怕偏
-- **[ooda-loop](./ooda-loop.md)** — 何时用：环境快速变化的对抗/竞争局面，比的是循环速度
-- **[productive-thinking-model](./productive-thinking-model.md)** — 何时用：想认真解一个问题的完整流程，从模糊到方案
-- **[zwicky-box](./zwicky-box.md)** — 何时用：要系统性出新点子，而不是等灵感
-- **[abstraction-laddering](../abstraction-laddering.md)** ★ — 何时用：问题定义不清、目标与手段脱节
+**广角 Zoom Out — 往大里看全局/后果**
+- [second-order-thinking](../second-order-thinking.md) ★ ｜状态:纠结｜类:系统 — 行动前评估连锁后果
+- [iceberg-model](./iceberg-model.md) ｜状态:顽固｜类:系统 — 单个事件想快速看深一眼
+- [cynefin-framework](./cynefin-framework.md) ｜状态:迷茫｜类:决策 — 不知问题属于哪种性质
+- [concept-map](./concept-map.md) ｜状态:迷茫｜类:系统 — 进入新领域，概念多但关系乱
+- [balancing-feedback-loop](./balancing-feedback-loop.md) ｜状态:顽固｜类:系统 — 系统总"回到老样子"、努力被抵消
+- [reinforcing-feedback-loop](./reinforcing-feedback-loop.md) ｜状态:顽固｜类:系统 — 越来越好/糟的滚雪球
 
-## 沟通 Communication
-- **[minto-pyramid](./minto-pyramid.md)** — 何时用：要向上汇报/对外表达，材料一堆但别人听不到重点
-- **[situation-behavior-impact](./situation-behavior-impact.md)** — 何时用：要给人反馈
-- **[six-thinking-hats](./six-thinking-hats.md)** — 何时用：一群人
-- **[conflict-resolution-diagram](./conflict-resolution-diagram.md)** — 何时用：两个要求硬碰硬，各有道理谁也不让
+**变焦 Reframe — 重新定义问题**
+- [abstraction-laddering](../abstraction-laddering.md) ★ ｜状态:迷茫｜类:问题 — 问题定义不清、目标与手段脱节
+- [inversion](./inversion.md) ｜状态:冲动｜类:决策 — 顺着想没抓手，或方案太乐观
+- [zwicky-box](./zwicky-box.md) ｜状态:通用｜类:问题 — 要系统性出新点子
 
-## 重工具（深度闸门开启，非普通路由）
-- **[deep-root](../deep-root.md)** — 同类问题反复≥3次/用户点名'老毛病·顽固·转型'时，Iceberg×NLP 双轴下潜
+**无明显缩放（流程/沟通类，按状态或场景取）**
+- [impact-effort-matrix](../impact-effort-matrix.md) ★ ｜状态:过载｜类:决策 — 事情太多，精疲力竭
+- [eisenhower-matrix](./eisenhower-matrix.md) ｜状态:过载｜类:决策 — 被紧急事追着跑
+- [decision-matrix](./decision-matrix.md) ｜状态:纠结｜类:决策 — 多选项×多标准乘不过来
+- [hard-choice-model](./hard-choice-model.md) ｜状态:纠结｜类:决策 — 两选项反复横跳
+- [confidence-determines-speed-vs-quality](./confidence-determines-speed-vs-quality.md) ｜状态:纠结｜类:决策 — 纠结快点出手还是打磨到位
+- [pre-mortem](./pre-mortem.md) ｜状态:冲动｜类:决策 — 方案将行未行/疑似假共识
+- [ooda-loop](./ooda-loop.md) ｜状态:通用｜类:问题 — 快变对抗局面比循环速度
+- [productive-thinking-model](./productive-thinking-model.md) ｜状态:迷茫｜类:问题 — 想认真解一个问题的完整流程
+- [minto-pyramid](./minto-pyramid.md) ｜状态:沟通｜类:沟通 — 汇报表达，别人听不到重点
+- [situation-behavior-impact](./situation-behavior-impact.md) ｜状态:沟通｜类:沟通 — 给人反馈怕说成人身评判
+- [six-thinking-hats](./six-thinking-hats.md) ｜状态:沟通｜类:沟通 — 一群人讨论总打架
+- [conflict-resolution-diagram](./conflict-resolution-diagram.md) ｜状态:沟通｜类:沟通 — 两个要求硬碰硬
+
+## 维度 B · 问题状态（你卡在哪）——快速反查
+
+- **迷茫**（不知从哪下手）：abstraction-laddering、cynefin-framework、issue-trees、concept-map、first-principles、productive-thinking-model
+- **纠结**（多选一）：decision-matrix、hard-choice-model、confidence-determines-speed-vs-quality、second-order-thinking
+- **过载**（事情太多）：impact-effort-matrix、eisenhower-matrix
+- **冲动/笃定**（准备下手）：ladder-of-inference、pre-mortem、inversion
+- **顽固**（反复出问题）：iceberg-model、balancing/reinforcing-feedback-loop、connection-circles、ishikawa-diagram →（≥3次转 deep-root）
+- **沟通**（对外）：minto-pyramid、situation-behavior-impact、six-thinking-hats、conflict-resolution-diagram
+- **通用/对抗**：ooda-loop、zwicky-box
+
+## 重工具
+- [deep-root](../deep-root.md)：反复≥3次/顽固/转型，Iceberg×NLP 双轴下潜

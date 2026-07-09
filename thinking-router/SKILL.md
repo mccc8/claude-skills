@@ -1,10 +1,10 @@
 ---
 name: thinking-router
 description: 思维工具路由器（How to think better）——先物理预检排除资源问题，再按状态×缩放命中轻工具，顽固问题过深度闸门进深根诊断，苏格拉底式一次一问。当用户说"我卡住了""一团乱不知道从哪开始""帮我想想这事""我该用什么框架想这个问题""这毛病老是反复"，或描述一个还没成形的困境时触发。已成形对象要完整分析→analysis-thinking；求助该问谁→smart-asking；目标落卡→goal-builder。
-version: 0.4.0
+version: 0.6.0
 status: 稳定
 since: 2026-07-08
-source: untools.co + 两轮会话思辨（v0.4：两级路由，全量 26 卡可达，编排覆盖 5/26→26/26）
+source: untools.co + cc-thinking-skills(fork,39框架) + 会话思辨（v0.6：接入姊妹路由器；v0.5改回缩放A+状态B主维度）
 ---
 
 # Thinking Router — 思维工具路由器
@@ -28,10 +28,12 @@ source: untools.co + 两轮会话思辨（v0.4：两级路由，全量 26 卡可
 | 过载："十件事精疲力竭" | 分拣 | [impact-effort-matrix.md](impact-effort-matrix.md) |
 | 对象成形要深挖 / 该问谁 / 目标落卡 | — | → analysis-thinking / smart-asking / goal-builder |
 
-**Level 2 · 全量二级路由**（Level 1 没命中就走这里，覆盖全部 26 卡）：
-① 把用户困境粗筛到一类——**系统**（回路/结构/反复出问题）｜**决策**（选项/取舍/优先级）｜**问题解决**（拆解/找根因/出新意）｜**沟通**（汇报/反馈/说服/协作）。
-② 加载 [tools/INDEX.md](tools/INDEX.md)，在该类内按每卡「何时用」线索匹配 → 命中一张加载它。
-③ 一个信号跨两类 → 摆双候选让用户挑，不硬选。
+**Level 2 · 全量二级路由**（Level 1 没命中就走这里，覆盖全部 26 卡。主维度用你偏好的**缩放 A + 状态 B**，四分类只作 INDEX 里的浏览标签）：
+① 按两个维度之一粗筛（哪个自然问哪个）：
+   - **维度 A 缩放**："你是想往深挖根因（微距）、往大看全局后果（广角）、还是重新定义问题本身（变焦）？"
+   - **维度 B 状态**："你现在是迷茫 / 纠结 / 过载 / 冲动 / 反复出同样问题？"
+② 加载 [tools/INDEX.md](tools/INDEX.md)，按 A 或 B 取候选 → 命中一张加载它（每卡同时标了缩放/状态/类，两个维度都查得到）。
+③ 一个信号跨两格 → 摆双候选让用户挑，不硬选。
 
 命中后（两级皆然）**先确认再进入**："听起来你要的是[工具的白话名]，走一遍合适吗？"——确认用工具解决的是什么，不报工具的英文名。
 
@@ -55,7 +57,14 @@ source: untools.co + 两轮会话思辨（v0.4：两级路由，全量 26 卡可
 - **想→验→行**：任意工具出结论 → ladder-of-inference 查事实/pre-mortem 验失败 → goal-builder 出闸
 - 全库共识：每张卡结尾的「接力」字段就是它在图上的出边；路由器在工具产出后应主动提示下一跳。
 
+## 姊妹路由器（cc-thinking-skills，已挂载 39 框架）
+
+本机装了 tjboudreaux/cc-thinking-skills（fork，39 个英文思维 skill + thinking-model-router）。两个 router 天然软分工，**不抢**：
+- **找我（本 router）**：中文、思维状态不清（迷茫/纠结/过载/冲动）、需苏格拉底引导、冥想盆场景、要物理预检/情绪律。
+- **转 thinking-model-router**：已明确落在某业务领域（代码/架构/产品/战略）用英文框架，或需要我库里没有的框架——贝叶斯、约束理论、机会成本、红队、稻草人、Via-Negativa、后悔最小化、可逆性等十几个。
+- 重叠工具（pre-mortem/cynefin/ooda/second-order/systems/inversion/first-principles）两边都有：中文语境用我的卡，英文/工程语境用它的 skill。
+
 ## 边界
 
 - 苏格拉底引导服务"想清楚"，不服务"写出来"——产出文档找对应产出型 skill。
-- **新增工具原则**：先查 GitHub 有无高星的**对话式引导** skill，有优质现成的就适配+标注来源（不重复造轮子）；无则自写成卡。判据见本仓 SOURCING.md。
+- **新增工具原则**：先查 GitHub 有无高星的**对话式引导** skill（cc-thinking-skills 已证明存在，别再默认"品类空白"），有优质现成的就 fork+挂载或适配+标注来源；无则自写。判据见 SOURCING.md。
